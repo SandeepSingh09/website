@@ -329,7 +329,7 @@ footer {
 }
 
 
-/* Resposniveness */
+                                   /* Resposniveness */
 @media (max-width:1300px) {
     .subjectcontainer {
         display: flex;
@@ -340,16 +340,16 @@ footer {
     .subbox {
         margin: 3px 0px;
         padding: 2px;
-        width: 398px;
-        height: 326px;
+        width: 333px;
+        height: 390px;
         margin-left: 1px;
 
     }
     #subbox1 {
-        margin-left: 100px;
+        margin-left: 40px;
     }
     #subbox2 {
-        margin-left: 100px;
+        margin-left: 40px;
     }
 
     .notescontainer {
@@ -359,7 +359,7 @@ footer {
     }
     .notebox {
         
-        margin-left: 100px;
+        margin-left: 63px;
         
     }
 
@@ -371,11 +371,20 @@ footer {
 
     .box {
         margin-left: 1px;
-        width: 398px;
+        width: 333px;
         height: 379px;
+    }
+    ul {
+        margin: 12px 2px;
+        padding: 23px;
     }
     .box ul a {
         font-size: 15px;
+    }
+
+    .mmmlogo img {
+        margin: 12px 65px;
+   
     }
 
 }
