@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    /* box-sizing: border-box; */
+    /* font-family:cursive; */
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: url("../Img/aqua1.jpeg");
+}
+
+
+.imgslider{
+    background-image: url("../Img/abt1.jpeg");
+    margin: 1px 1px;
+    border: 2px solid black;
+    width: 100%;
+    height: 600px;
+    background-size: 100% 100%;
+    animation: changeimage 35s linear infinite ;
+}
+
+@keyframes changeimage {
+    0%{
+        background-image: url("../Img/abt6.jpeg");
+    }
+    10%{
+        background-image: url("../Img/abt1.jpeg");
+    }
+    20%{
+        background-image: url("../Img/abt2.jpeg");
+    }
+    30%{
+        background-image: url("../Img/abt3.jpeg");
+    }
+    40%{
+        background-image: url("../Img/abt5.jpeg");
+    }
+    50%{
+        background-image: url("../Img/abt4.jpeg");
+    }
+    60%{
+        background-image: url("../Img/abt7.jpeg");
+    }
+    70%{
+        background-image: url("../Img/abt8.jpeg");
+    }
+    80%{
+        background-image: url("../Img/abt9.jpeg");
+    }
+    90%{
+        background-image: url("../Img/abt10.jpeg");
+    }
+    100%{
+        background-image: url("../Img/abt11.jpeg");
+    }
+}
+
+#abtsection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+
+}
+#abtme{
+    font-family: 'Varela Round', sans-serif;
+    border: 2px solid black;
+    margin-top: 25px;
+    padding: 6px 12px;
+    border-radius: 12px;
+    
+
+}
+#abtme:hover {
+    background-color: rgb(218, 175, 68);
+    color: white;
+
+}
+#abtsection p{
+    font-family: cursive;
+    font-size: large;
+    color: rgb(167, 33, 33);
+}
+#para{
+    margin:0px 12px ;
+}
+span{
+    color: rgba(0, 10, 119, 0.418);
+    font-weight: bolder;
+    text-decoration: underline;
+}
+.box{
+   
+    margin: 25px 8px;
+   
+   
+}
+h4{
+    /* text-align: center; */
+    font-size: 1.6rem;
+    text-decoration: underline;
+    margin: 5px;
+}
+.box i{
+    font-size: 25px;
+    margin: 15px;
+    padding: 0px 18px;
+   
+}
+#insta{
+    color: red;
+}
+#call{
+    color: rgb(0, 196, 0);
+}
+#linkedin{
+    color: rgb(1, 1, 147);
+}
+#h5{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+

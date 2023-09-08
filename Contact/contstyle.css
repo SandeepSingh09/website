@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: rgb(0, 0, 0);
+    /* box-sizing: border-box; */
+    /* font-family:cursive; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* #navbar{
+    display: flex;
+    align-items: center;
+    
+}
+#navbar::before {
+   
+    content: "";
+    background-color: rgb(4, 3, 3);
+    position: absolute;
+   
+   height: 19%;
+   width: 100%;
+    z-index: -1;
+    
+    opacity: 0.5;
+}
+#logo{
+    margin: 10px 10px;
+
+
+}
+#logo img{
+    height: 100px;
+    width: 150px;
+    margin: 2px 1px;
+  
+}
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 1.7rem;
+    /* text-decoration: none; */
+
+
+/* #navbar ul li a{
+    display: block;
+    padding: 0px 50px;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 0px 30px;
+    padding: 2px 19px;
+
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: rgb(218, 175, 68);
+
+color: white;
+
+}  */
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.container h2 {
+    color: white;
+    font-weight: bolder;
+    font-size: 36px;
+    text-align: center;
+    filter: drop-shadow(2px 2px 2px);
+    margin-top: 15px;
+}
+
+.item img {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    margin: 0px 20px;
+
+}
+
+.full {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    flex-wrap: wrap;
+    margin-left: 33px;
+}
+
+.item {
+    color: white;
+    margin-top: 30px;
+    margin-left: 21px;
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column; */
+}
+
+.info {
+    text-align: center;
+}
+
+.info a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(6, 0, 0);
+}
+
+.info p {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+}
+
+body {
+    background: url("../Img/contimg1.jpg")no-repeat center center/cover;
+
+}
+
+#insta {
+    color: red;
+}
+
+ul i {
+
+    font-size: 25px;
+    margin: 0px 8px;
+    /* padding: 0px 18px; */
+}
