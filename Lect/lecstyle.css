@@ -22,6 +22,12 @@
         height: 250px;
         width: 100%;
     }
+
+.mathimgproblem img{
+        height: 250px;
+        width: 92%;
+    }
+
     #formath{
         margin: 10px;
         padding: 0px 80px;
