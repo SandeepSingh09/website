@@ -56,9 +56,12 @@ html {
 
 #intro {
     display: flex;
-    margin: 5px 5px;
+    /* margin: 5px 5px; */
     font-size: 1.1rem;
-    color: rgb(18, 87, 235);
+    /* color: rgb(18, 87, 235); */
+    color: rgb(167, 33, 33);
+    justify-content: center;
+    align-items: center;
 
 }
 
@@ -94,8 +97,10 @@ html {
     border: 2px solid rgb(0, 0, 0);
     margin: 3px 150px;
     padding: 5px;
-    width: 480px;
-    height: 300px;
+    /* width: 480px; */
+    width: 100%;
+    /* height: 300px; */
+    height: 370px;
     border-radius: 10px;
     background-color: rgb(157, 252, 252);
 
@@ -104,13 +109,18 @@ html {
 .subbox:hover {
     transition: all ease-in-out 0.3s;
     transform: translateY(-20px);
+    filter: drop-shadow(2px 3px 4px) ;
+    
 }
 
 #subbox1 {
 
-    display: block;
+    /* display: block;
     margin: 8px 111px;
-    padding: 8px 16px;
+    padding: 8px 16px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: underline;
@@ -118,9 +128,12 @@ html {
 }
 
 #subbox2 {
-    display: block;
+    /* display: block;
     margin: 8px 111px;
-    padding: 8px 16px;
+    padding: 8px 16px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: underline;
@@ -129,7 +142,11 @@ html {
 #subjects {
     color: rgb(18, 87, 235);
     font-size: 1rem;
-    margin: 12px 43px;
+    /* margin: 12px 43px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
 }
 
 #heading3 {
@@ -157,7 +174,6 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    
 }
 
 .notebox {
@@ -165,9 +181,10 @@ html {
     border: 2px solid rgb(0, 0, 0);
     /* margin: 25px 250px; */
     margin-top: 40px;
-/*     margin-left: 320px; */
+    /* margin-left: 320px; */
     padding: 5px;
     width: 200px;
+    /* width: 50%; */
     height: 90px;
     border-radius: 100px;
     background-color: rgb(0, 25, 163);
@@ -177,6 +194,7 @@ html {
 .notebox:hover {
     transition: ease-out 0.5s;
     transform: translateY(-12px);
+    filter: drop-shadow(2px 3px 4px);
 
 
 }
@@ -225,24 +243,38 @@ html {
 
 .box {
     border: 1px solid black;
+    border-radius: 10px;
     /* margin: 8px 8px; */
     margin-top: 20px;
-    margin-left: 5px;
-    width: 490px;
+    margin-left: 1px;
+    /* width: 490px; */
+    width: 100%;
     height: 345px;
+    
+    
     background-color: rgb(146, 225, 225);
 }
 
 h4 {
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
     font-size: 1.6rem;
     text-decoration: underline;
-    margin: 5px;
+    /* margin: 5px; */
+}
+#unique1{
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
 }
 
 ul {
-    margin: 12px 34px;
-    padding: 23px;
+    /* margin: 12px 34px; */
+    /* padding: 23px; */
+    margin-top: 20px;
 }
 
 ul li {
@@ -300,9 +332,14 @@ ul li {
 #threads {
     color: whitesmoke;
 }
+.mmm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .mmmlogo img {
-    margin: 12px 135px;
+    /* margin: 12px 135px; */
 
     height: 180px;
     width: 200px;
@@ -332,8 +369,10 @@ footer {
 }
 
 
-                                   /* Resposniveness */
-@media (max-width:1300px) {
+                                       /* Resposniveness */
+
+
+@media (max-width:1000px) {
     .subjectcontainer {
         display: flex;
         flex-wrap: wrap;
@@ -343,14 +382,17 @@ footer {
     .subbox {
         margin: 3px 0px;
         padding: 2px;
-        width: 100%;
-        height: 411px;
+        /* width: 333px; */
+        /* width: 100%; */
+        height: 390px;
         margin-left: 1px;
 
     }
+
     #subbox1 {
         margin-left: 40px;
     }
+
     #subbox2 {
         margin-left: 40px;
     }
@@ -360,10 +402,11 @@ footer {
         flex-wrap: wrap;
         flex-direction: column;
     }
+
     .notebox {
-        
+
         margin-left: 63px;
-        
+
     }
 
     #contlinks {
@@ -374,20 +417,24 @@ footer {
 
     .box {
         margin-left: 1px;
+        /* width: 333px; */
         width: 100%;
         height: 379px;
     }
+
     ul {
         margin: 12px 2px;
         padding: 23px;
     }
+
     .box ul a {
         font-size: 15px;
     }
 
     .mmmlogo img {
-        margin: 12px 65px;
-   
+        /* margin: 12px 65px; */
+        height: 180px;
+        width: 200px;
     }
 
 }
