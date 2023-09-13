@@ -206,3 +206,20 @@ html {
 }
 
 
+                   /* Responsiveness */
+@media (max-width:800px) {
+    /* .pyq{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    } */
+    
+    .contcard{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+}
+
+
