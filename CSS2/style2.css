@@ -72,40 +72,45 @@ html {
     color: white;
 
 } */
-
+/* 
 #home {
     display: flex;
     flex-direction: column;
     padding: 0px 238px;
-  
-    /* height: 25px; */
     justify-items: center;
     align-items: center;
-}
+} */
 
 
 
 #head1 {
-    margin: 14px 0px;
-    color: rgb(25, 0, 255);
-    border: 2px solid black;
+    /* margin: 14px 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    margin-top: 22px;
+    margin-bottom: 50px;
+    color: rgb(159, 0, 0);
     border-radius: 9px;
-    padding: 12px 15px;
+    /* padding: 12px 15px; */
 }
 
-.pyq{
+.pyq {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     /* height: 764px; */
 }
-.contcard{
+
+.contcard {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 159px;
+    /* height: 159px; */
+    height: 100%;
     flex-wrap: wrap;
-    /* margin-top: 80px; */
+    /* margin-top: 70px; */
 }
 
 
@@ -131,6 +136,7 @@ html {
     height: 300px;
 
 }
+
 .contcard .card .imgbox {
     position: absolute;
     width: 300px;
@@ -194,7 +200,7 @@ html {
 .contcard .card .content h1 {
     font-size: 1em;
     font-weight: 700;
-    color:rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
 
 
 }
