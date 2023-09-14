@@ -92,17 +92,18 @@ color: white;
 
 .full {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    justify-content: center;
     align-items: center;
     margin-top: 30px;
     flex-wrap: wrap;
-    margin-left: 33px;
+    /* margin-left: 33px; */
 }
 
 .item {
     color: white;
     margin-top: 30px;
-    margin-left: 21px;
+    margin-left: 40px;
     /* display: flex;
     justify-content: space-around;
     align-items: center;
@@ -142,3 +143,15 @@ ul i {
     margin: 0px 8px;
     /* padding: 0px 18px; */
 }
+
+         
+                       /* Responsiveness */
+    
+    @media (max-width:1000px) {
+        .full{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        
+    }
