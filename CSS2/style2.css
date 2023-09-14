@@ -204,6 +204,9 @@ html {
 
 
 }
+body{
+    background: url("../Img/lib2.webp") no-repeat center center/cover;
+}
 
 
                    /* Responsiveness */
