@@ -57,6 +57,7 @@ html {
 #intro {
     display: flex;
     /* margin: 5px 5px; */
+      margin-left: 3px;
     font-size: 1.1rem;
     /* color: rgb(18, 87, 235); */
     color: rgb(167, 33, 33);
