@@ -91,7 +91,7 @@ html {
     text-decoration: underline;
     margin-top: 22px;
     margin-bottom: 50px;
-    color: rgb(159, 0, 0);
+    color: rgb(20, 12, 255);
     border-radius: 9px;
     /* padding: 12px 15px; */
 }
@@ -204,25 +204,104 @@ html {
 
 
 }
-body{
+
+
+body {
     background: url("../Img/lib2.webp") no-repeat center center/cover;
 }
 
 
-                   /* Responsiveness */
+#heading2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+    color: rgb(20, 12, 255);
+}
+
+#notes {
+
+    display: flex;
+    justify-content: space-around;
+    /* text-align: center; */
+    flex-wrap: wrap;
+}
+
+.subwise {
+    background: #9fe9ff;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-top: 45px;
+    /* width: 18%; */
+    width: 342px;
+    height: 100%;
+}
+
+.subwise:hover {
+    transform: translateY(-15px);
+    transition: .5s;
+    filter: drop-shadow(3px 3px 3px white);
+}
+
+.subwise h4 {
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.subwise ul li {
+    list-style: disc;
+    margin-left: 30px;
+    margin: 23px;
+
+}
+
+.subwise ul li a {
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+    /* margin: 23px; */
+}
+
+#notice {
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(20, 12, 255);
+    text-decoration: underline;
+}
+
+
+
+/* Responsiveness */
 @media (max-width:800px) {
     /* .pyq{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     } */
-    
-    .contcard{
+
+    .contcard {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
     }
-    
+
+    #notes {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+
+    }
+
+    .subwise h4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 
