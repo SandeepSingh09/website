@@ -143,7 +143,7 @@ html {
 #subjects {
     color: rgb(18, 87, 235);
     font-size: 1rem;
-    /* margin: 12px 43px; */
+    margin: 12px 43px;
     display: flex;
     justify-content: center;
     align-items: center;
