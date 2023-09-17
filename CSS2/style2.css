@@ -10,10 +10,8 @@ html {
     scroll-behavior: smooth;
 }
 .nav-link:hover{
-    border: 1px solid white;
-    background-color: rgb(195, 167, 6);
-    border-radius: 15px;
-
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 #head1 {
