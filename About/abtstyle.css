@@ -13,10 +13,8 @@ body{
     background: url("../Img/aqua1.jpeg");
 }
 .nav-link:hover{
-    border: 1px solid white;
-    background-color: rgb(195, 167, 6);
-    border-radius: 15px;
-
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
 
