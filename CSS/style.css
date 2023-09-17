@@ -9,7 +9,12 @@
 html {
     scroll-behavior: smooth;
 }
+.nav-link:hover{
+    border: 1px solid white;
+    background-color: rgb(195, 167, 6);
+    border-radius: 15px;
 
+}
 .imgslider {
     background-image: url("../Img/Transimg1.jpeg");
     margin: 1px 1px;
