@@ -9,6 +9,12 @@
 html {
     scroll-behavior: smooth;
 }
+.nav-link:hover{
+    border: 1px solid white;
+    background-color: rgb(195, 167, 6);
+    border-radius: 15px;
+
+}
 
 #head1 {
     /* margin: 14px 0px; */
