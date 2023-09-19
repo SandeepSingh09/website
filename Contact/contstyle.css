@@ -19,6 +19,7 @@ html {
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
+    margin-top: 85px;
 }
 
 .container h2 {
