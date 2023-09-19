@@ -15,7 +15,8 @@ html {
 }
 .imgslider {
     background-image: url("../Img/Transimg1.jpeg");
-    margin: 1px 1px;
+/*     margin: 1px 1px; */
+    margin-top:91px;
     border: 2px solid black;
     width: 100%;
     height: 450px;
