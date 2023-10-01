@@ -13,6 +13,7 @@ html {
     font-weight: bolder;
     text-decoration: underline;
 }
+
 .container {
     display: flex;
     justify-content: space-around;
@@ -78,7 +79,7 @@ html {
 }
 
 body {
-    background: url("../Img/contimg1.jpg")no-repeat center center/cover;
+    background: url("../Img/aqua1.jpeg")no-repeat center center/cover;
 
 }
 
@@ -91,6 +92,24 @@ ul i {
     font-size: 25px;
     margin: 0px 8px;
     /* padding: 0px 18px; */
+}
+
+#Thanks{
+    /* font-family: cursive; */
+    /* font-size: large; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 12px 15px;
+    color: rgb(167, 33, 33);
+}
+span{
+    color: rgba(0, 10, 119, 0.418);
+    font-weight: bolder;
+    text-decoration: underline;
 }
 
          
