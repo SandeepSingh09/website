@@ -9,14 +9,16 @@
 html {
     scroll-behavior: smooth;
 }
-.nav-link:hover{
+
+.nav-link:hover {
     font-weight: bolder;
     text-decoration: underline;
 }
+
 .imgslider {
     background-image: url("../Img/Transimg1.jpeg");
-/*     margin: 1px 1px; */
-    margin-top:91px;
+    /* margin: 1px 1px; */
+    margin-top: 91px;
     border: 2px solid black;
     width: 100%;
     height: 450px;
@@ -61,10 +63,10 @@ html {
 #intro {
     display: flex;
     /* margin: 5px 5px; */
-      margin-left: 3px;
+    margin-left: 3px;
     font-size: 1.1rem;
     /* color: rgb(18, 87, 235); */
-    color: rgb(167, 33, 33);
+    color: rgb(162, 7, 7);
     justify-content: center;
     align-items: center;
 
@@ -114,8 +116,8 @@ html {
 .subbox:hover {
     transition: all ease-in-out 0.3s;
     transform: translateY(-20px);
-    filter: drop-shadow(2px 3px 4px) ;
-    
+    filter: drop-shadow(2px 3px 4px);
+
 }
 
 #subbox1 {
@@ -133,6 +135,30 @@ html {
 }
 
 #subbox2 {
+    /* display: block;
+    margin: 8px 111px;
+    padding: 8px 16px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#subbox3 {
+    /* display: block;
+    margin: 8px 111px;
+    padding: 8px 16px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#subbox4 {
     /* display: block;
     margin: 8px 111px;
     padding: 8px 16px; */
@@ -222,6 +248,24 @@ html {
 
 }
 
+#notebox3 {
+    text-align: center;
+    margin: 23px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
+#notebox4 {
+    text-align: center;
+    margin: 23px;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    text-decoration: underline;
+
+}
+
 #heading4 {
     /* margin: 40px 0px; */
 
@@ -255,8 +299,8 @@ html {
     /* width: 490px; */
     width: 100%;
     height: 345px;
-    
-    
+
+
     background-color: rgb(146, 225, 225);
 }
 
@@ -269,9 +313,10 @@ h4 {
     text-decoration: underline;
     /* margin: 5px; */
 }
-#unique1{
+
+#unique1 {
     display: flex;
-   
+
     justify-content: center;
     align-items: center;
 }
@@ -337,7 +382,8 @@ ul li {
 #threads {
     color: whitesmoke;
 }
-.mmm{
+
+.mmm {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -374,7 +420,7 @@ footer {
 }
 
 
-                                       /* Resposniveness */
+                                        /* Resposniveness */
 
 
 @media (max-width:1000px) {
